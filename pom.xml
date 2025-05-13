@@ -38,7 +38,7 @@
 					<plugin>
 						<groupId>org.openrewrite.maven</groupId>
 						<artifactId>rewrite-maven-plugin</artifactId>
-						<version>5.43.0</version>
+						<version>6.8.1</version>
 						<configuration>
 							<activeRecipes>
 								<recipe>${recipe}</recipe>
