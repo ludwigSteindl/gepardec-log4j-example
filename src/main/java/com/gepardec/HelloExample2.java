@@ -1,10 +1,11 @@
 package com.gepardec;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class HelloExample2{
 	
-	final static Logger logger = Logger.getLogger(HelloExample2.class);
+	final static Logger logger = LogManager.getLogger(HelloExample2.class);
 	
 	public static void main(String[] args) {
 	
